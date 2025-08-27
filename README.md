@@ -1,4 +1,4 @@
-# 토스 스타일 To-Do List 웹앱
+# 레오의 To-Do List 웹앱
 
 Supabase를 백엔드로 사용하는 미니멀하고 직관적인 To-Do List 단일 페이지 웹앱입니다.
 
