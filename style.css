@@ -234,65 +234,9 @@ button:active {
     }
 }
 
-/* 다크 모드 지원 (선택사항) */
-@media (prefers-color-scheme: dark) {
-    body {
-        background: #0F172A;
-        color: #F1F5F9;
-    }
-    
-    .bg-white {
-        background: #1E293B;
-        border-color: #334155;
-    }
-    
-    .text-toss-dark {
-        color: #F1F5F9;
-    }
-    
-    .text-gray-500 {
-        color: #94A3B8;
-    }
-    
-    .text-gray-400 {
-        color: #64748B;
-    }
-    
-    .border-gray-100 {
-        border-color: #334155;
-    }
-    
-    .divide-gray-100 {
-        border-color: #334155;
-    }
-    
-    #task-input {
-        background: #334155;
-        border-color: #475569;
-        color: #F1F5F9;
-    }
-    
-    #task-input:focus {
-        background: #475569;
-    }
-    
-    .filter-tab:hover:not(.active) {
-        background: #334155;
-    }
-    
-    .task-item:hover {
-        background: #334155;
-    }
-}
 
-/* 접근성 개선 */
-@media (prefers-reduced-motion: reduce) {
-    * {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-    }
-}
+
+
 
 /* 포커스 표시 개선 */
 button:focus-visible,
@@ -533,21 +477,4 @@ input:focus-visible {
     animation: scaleIn 0.2s ease-out;
 }
 
-/* 고대비 모드 지원 */
-@media (prefers-contrast: high) {
-    .border-gray-100 {
-        border-color: #000;
-    }
-    
-    .text-gray-500 {
-        color: #000;
-    }
-    
-    .text-gray-400 {
-        color: #000;
-    }
-    
-    .tag {
-        border-color: #000;
-    }
-} 
+ 
